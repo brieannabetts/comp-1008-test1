@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Purchases {
     private int TotalPrice;
     private String GroceryNames;
@@ -8,6 +10,7 @@ public class Purchases {
         setGroceryNames(GroceryNames);
         setCategories(Categories);
     }
+
     public int getTotalPrice) {
         return TotalPrice;
     }
@@ -31,5 +34,8 @@ public class Purchases {
     public void setCategories(String Categories) {
         this.Categories = Categories;
     }
+    public static void main (String[] args {
+        Scanner scanner = new Scanner(System.in);
+    }
 }
-}
+

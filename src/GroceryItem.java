@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class GroceryItem {
     private String name;
@@ -38,7 +39,9 @@ public class GroceryItem {
             throw new IllegalArgumentException(category + " is not a valid face name, use 1 of "+
                     getValidCategories());
     }
-    toString()
+    public static void main (String[] args {
+        Scanner scanner = new Scanner(System.in);
+    }
 
     public static List<String> getValidCategories()
     {
